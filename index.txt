@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       
+        <title>Visit Singapore</title>
+
+
+        <style>
+
+.container {
+position: relative;
+width: 50%;
+}
+
+.mbs {
+
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+opacity: 1;
+display: block;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+
+
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.container:hover .mbs {
+opacity: 0.3;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
+
+.text {
+background-color: #EF3340;
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+font-family: calibri;
+}
+
+
+.center {
+text-align: center;
+list-style-position: inside;
+}
+
+
+#header {
+left: 10px;
+float: top;
+position: relative;
+height: 250px;
+width: 95%;
+text-align: center;
+background-color: #EF3340;
+color: white;
+font-size: 30px;
+margin: 2px;
+}
+
+#flag {
+border:4px solid black;
+width: 150px;
+}
+
+#flags {
+border:4px solid black;
+width: 50px;
+margin: -13px;
+}
+
+.right {
+border:4px solid black;
+width: 250px;
+float: right;
+margins: 1px;
+font-family: calibri;
+color: black;
+      }
+
+body {
+ 
+background-image: url("https://www.xmple.com/wallpaper/grey-red-gradient-linear-1920x1080-c2-808080-ab6f77-a-135-f-14.svg");
+height: 100%;
+background-position: center;
+  background-repeat: no-repeat;
+background-size: cover;
+  font-family: calibri;
+}
+
+h1 {
+color: white;
+font-size: 50px;
+font-family: Jazz LET, fantasy;
+}
+
+p {
+color:white;
+font-size: 20px;
+font-family: calibri;
+}
+
+table {
+  font-family: calibri;
+  border-collapse: collapse;
+  width: 100%;
+text-align: left;
+border: 1px;
+cell-padding: 1px;
+height: 100%;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+img {
+height: 100%;
+width: 100%;
+}
+
+.left {
+background-color:#EF3340;
+        color: white;
+font-size: 25px;
+font-weight: bold;
+font-style: normal;
+margins: 1px;
+font-family: calibri;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+h2 {
+background-color:#EF3340;
+        color: white;
+font-size: 25px;
+font-weight: bold;
+font-style: normal;
+margins: 1px;
+font-family: calibri;
+}
+
+
+.places {
+text-align: left;
+font-style: oblique;
+font-size: 20px;
+}
+
+.hotels {
+text-align: center;
+font-style: normal;
+font-size: 20px;
+}
+
+#hotel {
+background-color:#EF3340;
+color: white;
+font-size: 25px;
+font-style: normal;
+border: 2px solid white;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+li {
+text-align: center;
+font-style: oblique;
+font-size: 20px;
+list-style-type: square;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  padding: 12px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: gray;
+color: #EF3340;
+font-size: 20;
+}
+
+#sources {
+text-align: left;
+font-style: normal;
+font-size: 20px;
+}
+
+.source {
+text-align: left;
+}
+
+#footer {
+  position: fixed;
+  left: 40px;
+  bottom: 0;
+  width: 90%;
+  background-color: #EF3340;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  height: 50px;
+}
+
+.containers {
+  position: relative;
+  text-align: center;
+  color: black;
+z-index: -1;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+</style>
+
+    </head>
+
+
+
+
+<div id="header">
+  <h1> <marquee>Visit Singapore!</marquee></h1>
+ <center><img id="flag" src="https://cdn.countryflags.com/thumbs/singapore/flag-400.png" alt="Singapore Flag"></center>  
+</div>
+
+
+    <body>
+   
+       
+        <p> <img class="right" src="https://miro.medium.com/max/3200/1*7FLaUO0HgaAYc4k8uQ22Bw.jpeg" alt="Kids">  
+  Singapore is a small island city state (country) that lies just above the equator in southeast Asia. Singapore is considered to be the most richest, cleanest, smartest, and safest country in the world. Also, it is one of the most diverse. The main ethnicities are Indian, Chinese, Malay, and Eurasian. The national languages of Singapore are English, Chinese, Malay, and Tamil. The currency used is the Singapore Dollar.
+
+<br>
+<br>
+With many places to visit, many foods to try, and activities to do, Singapore is the perfect utopia!
+</p>
+<br>
+   
+
+<h2 class="left">Flights to Singapore from Atlanta</h2>
+
+<table>
+  <tr>
+    <th>Airline</th>
+    <th>Stops</th>
+    <th>Avg Price (Economy)</th>
+    <th>Rating (out of 10)</th>
+  </tr>
+  <tr>
+    <td>Singapore Airlines</td>
+<td>Nonstop</td>
+    <td>$1250</td>
+    <td>9.5</td>
+
+  </tr>
+  <tr>
+    <td>Delta</td>
+    <td>Manila</td>
+    <td>$1150</td>
+    <td>8.5</td>
+  </tr>
+
+  <tr>
+    <td>United</td>
+    <td>San Fransisco</td>
+    <td>$900</td>
+    <td>7</td>
+  </tr>
+
+  <tr>
+    <td>KLM</td>
+    <td>Amsterdam, Bali</td>
+    <td>$1100</td>
+    <td>7.5</td>
+  </tr>
+
+  <tr>
+    <td>Air France</td>
+    <td>Paris</td>
+    <td>$1100</td>
+    <td>7.5</td>
+  </tr>
+  <tr>
+    <td>Qatar</td>
+    <td>Doha</td>
+    <td>$1200</td>
+    <td>9</td>
+  </tr>
+</table>
+
+ <p class="left"> Some things to visit in Singapore:</p>
+
+       <dl class="places">
+  <dt>•<b>Marina Bay Sands</b></dt>
+<dd>-SkyView, giant infinity pool 50 floors high</dd>
+  <dt>•<b>Gardens by the Bay</b></dt>
+<dd>-SuperTree Grove</dd>
+  <dt>•<b>Sentosa Island Resort</b></dt>
+<dd>-Madame Tussaeds Wax Museum, Universal Studios, Legoland, Beach, Luge, Skyride</dd>
+  <dt>•<b>Singapore Flyer</b></dt>
+<dd>-2nd tallest ferris wheel</dd>
+  <dt>•<b>Orchard Road</b></dt>
+<dd>-luxury shopping</dd>
+   <dt>•<b>Merlion Park</b></dt>
+<dd>-Merlion statue</dd>
+  <dt>•<b>Little India, Chinatown, Arab Quarter</b></dt>
+<dd>-diverse foods</dd>
+<br>
+<p class="left"> Hover Over Picture to See Location</p>
+ 
+<center><div class="container">
+  <img class="mbs" src="https://www.marinabaysands.com/content/dam/singapore/marinabaysands/master/main/home/hotel/offers/celebrating10years/celebrating-10-years-600x450.jpg" alt="Marina Bay Sands"  style="width: 500px">
+  <div class="middle">
+    <div class="text">Marina Bay Sands</div> </div> </div>
+ 
+ <div class="container">
+  <img class="mbs" src="https://ak4.picdn.net/shutterstock/videos/20467234/thumb/1.jpg"  style="width:500px" >
+  <div class="middle">
+    <div class="text">Supertree Grove @ Gardens by the Bay</div> </div> </div>
+
+<div class="container">
+  <img class="mbs" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Merlion_Sentosa.jpg/1200px-Merlion_Sentosa.jpg"  style="width:500px" >
+  <div class="middle">
+    <div class="text">Sentosa Island Resort</div> </div> </div>
+
+<div class="container">
+  <img class="mbs" src="https://www.visitsingapore.com/see-do-singapore/recreation-leisure/viewpoints/singapore-flyer/_jcr_content/par-carousel/carousel_detailpage/carousel/item_3.thumbnail.carousel-img.740.416.jpg"  style="width:500px" >
+  <div class="middle">
+    <div class="text">Singapore Flyer</div> </div> </div>
+
+<div class="container">
+  <img class="mbs" src="https://img.travelawaits.com/filter:centercrop/quill/f/d/f/c/2/4/fdfc242ffd612382c212e04702e4d5f0fae144dd.jpg?w=800&h=800"  style="width:500px" >
+  <div class="middle">
+    <div class="text">Merlion Park</div> </div> </div>
+
+<div class="container">
+  <img class="mbs" src="https://www.skylineluge.com/media/3227/skyline-luge-sentosa_four-friends-on-the-skyride.jpg"  style="width:500px" >
+  <div class="middle">
+    <div class="text">Skyride</div> </div> </div>
+
+<div class="container">
+  <img class="mbs" src="https://img.theculturetrip.com/768x432/wp-content/uploads/2016/08/8393949545_a659a94e77_k.jpg"  style="width:500px" >
+  <div class="middle">
+    <div class="text">Boat Quay & Downtown</div> </div> </div>
+
+</center>
+
+
+<h3 id="hotel">Best Hotels in Singapore</h3>
+<ol class="hotels">
+  <li><b>Marina Bay Sands;</b> $400 nightly</li>
+  <li><b>Mandarin Orchard;</b>  $250 nightly</li>
+  <li><b>Fullerton Hotel; </b> $500 nightly</li>
+  <li><b>W Hotel;</b>  $275 nightly</li>
+  <li><b>Ritz Carlton; </b> $600 nightly</li>
+</ol>
+
+<br>
+
+<center><div class="container">
+  <img class="mbs" src="https://static.dezeen.com/uploads/2019/04/safdie-architects-marina-bay-sands-fourth-tower-singapore_dezeen_2364_hero.jpg" alt="Marina Bay Sands"  style="width: 500px">
+  <div class="middle">
+    <div class="text">Marina Bay Sands</div> </div> </div>
+
+<center><div class="container">
+  <img class="mbs" src="http://www.asiaone.com/sites/default/files/original_images/Aug2015/20150801-mandarinorchard_0.jpg" alt="Mandarain Orchard"  style="width: 500px">
+  <div class="middle">
+    <div class="text">Mandarain Orchard</div> </div> </div>
+
+<center><div class="container">
+  <img class="mbs" src="https://q-cf.bstatic.com/images/hotel/max1024x768/106/106988145.jpg" alt="Fullerton Hotel"  style="width: 500px">
+  <div class="middle">
+    <div class="text">Fullerton Hotel</div> </div> </div>
+
+<center><div class="container">
+  <img class="mbs" src="https://cache.marriott.com/marriottassets/marriott/SINWH/sinwh-wet-pool-5764-hor-wide.jpg?interpolation=progressive-bilinear&downsize=1440px:*" alt="W Hotel"  style="width: 500px">
+  <div class="middle">
+    <div class="text">W Hotel</div> </div> </div>
+
+<center><div class="container">
+  <img class="mbs" src="https://r-cf.bstatic.com/images/hotel/max1024x768/215/215703220.jpg" alt="Ritz Carlton"  style="width: 500px">
+  <div class="middle">
+    <div class="text">Ritz Carlton</div> </div> </div>
+
+
+<h5 class="left"> Find out More (Sources)</h5>
+ 
+ <ul id="sources">
+
+  <li class="source"> <a href="https://www.visitsingapore.com/en/">Visit Singapore</a></li>
+ <br> <li class="source"><a href="https://www.lonelyplanet.com/singapore">Lonely Planet</a></li>
+ <br> <li class="source"><a href="https://www.stb.gov.sg/content/stb/en.html">Singapore Tourism Board</a> </li>
+<br> <li class="source"><a href="https://www.travelandleisure.com/travel-guide/singapore-asia"> Travel and Leisure</a></li>
+<br> <li class="source"><a href="https://www.tripsavvy.com/singapore-travel-information-1629785">Trip Savvy</a></li>
+</ul>
+
+
+<div class="containers">
+  <center><img src="https://img.theculturetrip.com/768x432/wp-content/uploads/2016/05/gf70r2-1.jpg" alt="Skyline" style="width:100%;"></center>
+  <div class="centered"><b>See you there!</b></div>
+</div>
+
+<div id="footer">
+  <p><center><img id="flags" src="https://cdn.countryflags.com/thumbs/singapore/flag-400.png" alt="Singapore Flag"></center></p>
+</div>
+
+    </body>
+</html>
